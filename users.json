@@ -54,6 +54,17 @@
       "device_model": "",
       "first_activated_at": "",
       "last_login_at": ""
+    },
+    "user_usertest": {
+      "name": "usertest",
+      "key_hash": "9cd445125ffa122a98419def8421ed694451fc4e084847858b57a16d46ac05d6",
+      "created_at": "2026-08-17",
+      "expires_days": 30,
+      "active": true,
+      "device_hash": "",
+      "device_model": "",
+      "first_activated_at": "",
+      "last_login_at": ""
     }
   }
 }
