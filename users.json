@@ -9,40 +9,28 @@
       "device_hash": "a23084d7baf7731d163e067707c4c76a06217a0d617c51eff1b5d230596640dc",
       "device_model": "PC DESKTOP-1N78EJV (Windows)",
       "first_activated_at": "2026-08-15 12:28:50",
-      "last_login_at": "2026-08-15 16:22:58"
+      "last_login_at": "2026-08-16 15:36:00"
     },
     "user_bota": {
       "name": "bota",
       "key_hash": "f44b57dbc3b8962ed78006f7ff2f169837da27b6535ef951dbb6b3bbe35129f7",
       "created_at": "2026-08-15",
       "expires_days": 7,
-      "active": true,
-      "device_hash": "",
-      "device_model": "",
-      "first_activated_at": "",
-      "last_login_at": ""
+      "active": true
     },
     "user_tombolahy": {
       "name": "tombolahy",
       "key_hash": "4498d551de328240cd563e682ff201eb2d9684f872c14fbc1bd48f08acff503d",
       "created_at": "2026-08-15",
       "expires_days": 30,
-      "active": true,
-      "device_hash": "",
-      "device_model": "",
-      "first_activated_at": "",
-      "last_login_at": ""
+      "active": true
     },
     "user_newbot": {
       "name": "newbot",
       "key_hash": "d1c7cf7d066cf6d5257bd400a4ccb5afcce68519899ae6b2ab9ec6467a424e60",
       "created_at": "2026-08-15",
       "expires_days": 30,
-      "active": true,
-      "device_hash": "",
-      "device_model": "",
-      "first_activated_at": "",
-      "last_login_at": ""
+      "active": true
     }
   }
 }
