@@ -1,0 +1,41 @@
+# ── Fichiers sensibles ────────────────────────────────────────────
+.env
+*.env.local
+users.json
+transactions.txt
+
+# ── Session bot (contient le wallet) ─────────────────────────────
+~/.x2crypto_session.json
+.x2crypto_session.json
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+venv/
+env/
+.venv/
+.env/
+
+# ── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs / debug / source admin ──────────────────────────────────
+*.log
+*.html
+_diag_*.py
+user_*.html
+test_verification.py
+test_deposit_scan.py
+test_*.py
+source_worktree/
+

@@ -1,0 +1,4 @@
+# X2Crypto Bot - Dépendances Python
+# Le bot terminal utilise la bibliothèque standard Python 3.7+
+# Pour le bot Telegram optionnel (@LXM67bot) :
+python-telegram-bot>=20.0
