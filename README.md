@@ -1,11 +1,9 @@
-# X2CRYPTO BOT
+# X2CRYPTO BOT — LITECOIN-MACHINE
 
-> **Version publique — mise à jour le 2026-08-17**
+> **Version — mise à jour vers LITECOIN-MACHINE (https://litecoin-machine.co)**
 
-Bot terminal  VIP / X2Crypto — compatible **Windows** et **Termux Android**.
-Runner obfusqué, gestion multi-session, licence par appareil.
-
-
+Bot terminal LITECOIN-MACHINE / X2Crypto — compatible **Windows** et **Termux Android**.
+Runner obfusqué, gestion multi-session, licence par appareil, minage Litecoin (LTC).
 
 ---
 
@@ -29,16 +27,12 @@ git reset --hard origin/master
 bash lancer_termux.sh
 ```
 
-> Si vous avez des modifications locales à conserver, exécutez d'abord : `git stash push -u -m "sauvegarde avant mise à jour"`. Après la mise à jour, restaurez-les avec `git stash pop`.
-
 ### 3) Lancer une session spécifique
 ```bash
 cd ~/x2crypto-bot
 bash lancer_termux.sh --session auto-invest
 bash lancer_termux.sh --session depot-normal
 ```
-
-> Sur Termux, le script `lancer_termux.sh` vérifie si Python est présent, met à jour le dépôt si besoin et démarre le bot avec votre session locale.
 
 ---
 
@@ -60,8 +54,6 @@ git reset --hard origin/master
 .\lancer_bot.bat
 ```
 
-> Si vous avez des modifications locales à conserver, exécutez d'abord `git stash push -u -m "sauvegarde avant mise à jour"`. Après la mise à jour, restaurez-les avec `git stash pop`.
-
 ### Plusieurs sessions
 ```powershell
 .\lancer_bot.bat --session auto-invest
@@ -77,39 +69,28 @@ cd x2crypto-bot
 python x2crypto_runner.py
 ```
 
-Chaque utilisateur peut lancer le bot avec son propre wallet, sa propre clé et sa propre session locale.
+---
+
+## ⭐ Fonctionnalités principales (LITECOIN-MACHINE)
+
+- **Plateforme cible** : `https://litecoin-machine.co`
+- **Devise de minage** : Litecoin (LTC) & taux de change USD en direct
+- **Plans d'investissement** :
+  - *Pro Miner* (140% sur 6 jours)
+  - *Vip Miner* (150% sur 5 jours)
+  - *Premium plan* (150% sur 24h)
+  - *Vip Premium* (200% sur 24h)
+  - *Start Plan* (300% sur 24h)
+- **Authentification Livewire v2** : Login direct par adresse LTC + PIN ou cookies de session
+- **Retraits automatiques / manuels** : Vers l'adresse LTC enregistrée (Min: 0.01 LTC)
+- **Auto Invest** : Réinvestissement automatique des gains
+- **Sessions isolées** : Multi-comptes avec `--session NOM`
+- **Protection par licence** : Activation sécurisée par utilisateur et appareil
 
 ---
 
-## ⭐ Fonctionnalités principales
+## 🔐 Contact & Support
 
-- Dépôt crypto automatique sur les réseaux supportés TRX
-- Auto Invest avec cycle ou réinvestissement automatique.
-- Suivi des dépôts jusqu'au retrait effectif.
-- Retrait automatique ou manuel vers le wallet enregistré.
-- Sessions isolées avec `--session NOM`.
-- Déconnexion propre pour supprimer les sessions locales.
-- Calculateur de profit +35 % sur 24h.
-- Système de licence par appareil
-- Support Telegram intégré avec `@LXM67bot`.
-- Runner obfusqué — source protégée, mise à jour centralisée.
-
----
-
-## 🔐 Système de licence
-
-L'accès est contrôlé par une **clé unique par appareil** :
-
-- La clé est liée à l'empreinte matérielle de votre appareil dès la première activation.
-- Toute tentative d'utilisation sur un autre appareil est bloquée automatiquement.
-- Pour transférer votre licence sur un nouvel appareil, contactez le support.
-
----
-
-
----
-
-## 📞 Support & liens
-- Bot Telegram : `@LXM67bot` — https://t.me/LXM67bot
-- WhatsApp : `+261347281599` — https://wa.me/261347281599
-- Dépôt GitHub public : https://github.com/Baggio67/x2crypto-bot
+- Bot Telegram : `@michelbaggio` — https://t.me/michelbaggio
+- WhatsApp : `+261 34 72 815 99` — https://wa.me/261347281599
+- Dépôt GitHub : https://github.com/Baggio67/x2crypto-bot
