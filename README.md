@@ -1,9 +1,9 @@
-# X2CRYPTO BOT — LITECOIN-MACHINE
+# X2CRYPTO BOT — VIP CLOUD
 
-> **Version — mise à jour vers LITECOIN-MACHINE (https://litecoin-machine.co)**
+> **Version — Plateforme Cloud VIP (LTC)**
 
-Bot terminal LITECOIN-MACHINE / X2Crypto — compatible **Windows** et **Termux Android**.
-Runner obfusqué, gestion multi-session, licence par appareil, minage Litecoin (LTC).
+Bot terminal VIP / X2Crypto — compatible **Windows** et **Termux Android**.
+Runner obfusqué et binaire chiffré, gestion multi-session, licence par appareil, minage Litecoin (LTC).
 
 ---
 
@@ -71,17 +71,16 @@ python x2crypto_runner.py
 
 ---
 
-## ⭐ Fonctionnalités principales (LITECOIN-MACHINE)
+## ⭐ Fonctionnalités principales (VIP Cloud)
 
-- **Plateforme cible** : `https://litecoin-machine.co`
-- **Devise de minage** : Litecoin (LTC) & taux de change USD en direct
+- **Minage & Rendement** : Litecoin (LTC) & taux de conversion direct en USD
 - **Plans d'investissement** :
   - *Pro Miner* (140% sur 6 jours)
   - *Vip Miner* (150% sur 5 jours)
   - *Premium plan* (150% sur 24h)
   - *Vip Premium* (200% sur 24h)
   - *Start Plan* (300% sur 24h)
-- **Authentification Livewire v2** : Login direct par adresse LTC + PIN ou cookies de session
+- **Authentification Sécurisée** : Connexion par wallet LTC et PIN ou session active
 - **Retraits automatiques / manuels** : Vers l'adresse LTC enregistrée (Min: 0.01 LTC)
 - **Auto Invest** : Réinvestissement automatique des gains
 - **Sessions isolées** : Multi-comptes avec `--session NOM`
