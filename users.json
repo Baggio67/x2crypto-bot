@@ -65,6 +65,17 @@
       "device_model": "",
       "first_activated_at": "",
       "last_login_at": ""
+    },
+    "user_bahub": {
+      "name": "bahub",
+      "key_hash": "b08eac31df180894a25a68ed395eae96b1a8586ae3161545d5d2636b874bd2cb",
+      "created_at": "2026-08-20",
+      "expires_days": 30,
+      "active": true,
+      "device_hash": "",
+      "device_model": "",
+      "first_activated_at": "",
+      "last_login_at": ""
     }
   }
 }
